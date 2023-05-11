@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    </head>
+<body>
+<header class="header">
+  <div class="container" style="position: fixed"; top: 0>
+    <div class="header_wrap">
+      <!-- LEFT -->
+      <nav class="header_inline">
+        <div class="header_search">
+          <form>
+            <div class="search-container">
+              <input type="text" placeholder="Buscar..." style="background-color: transparent;">
+              <button type="submit"><img src="icons/lupa-de-busqueda.png" alt="Buscar"></button>
+            </div>
+          </form>
+        </div>
+      </nav>
+      <!-- LOGO --> 
+      <h1 class="header_logo">
+        <a>
+          <img class="header_logo_img" src="icons/logo.jpeg" width="90px"></a>
+        </a>
+      </h1>
+      <!-- RIGHT -->  
+      <div class="header_sec">
+        <div class="header_icon-list">
+          <nav class="navbar">
+            <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+            <ul class="navbar-ul">
+                <li class="navbar-il"><a class="active" href="index.html">INICIO</a></li>
+                <li class="navbar-il"><a href="nuevo.html" class="vinc">NUEVO</a></li>
+                <li class="navbar-il"><a href="productos.html" class="vinc">PRODUCTOS</a></li>
+                <li class="navbar-il"><a href="contacto.html" class="vinc">CONTACTANOS</a></li>
+                <li class="navbar-il"><a href="us.html" class="vinc">NOSOTROS</a></li>
+                <li class="navbar-il"><a href="usuario.html" class="vinc">UNETE</a></li>
+            </ul>
+          </nav>
+          <a href="carrito.html" class="header_icon-wrap">
+            <img src="icons/carrito-de-compras.png" class="icon">
+          </a>
+          <a href="usuario.html" class="header_icon-wrap">
+            <img src="icons/usuario-de-perfil.png" class="icon">
+          </a>
+        </div>
+      </div>
+    </div>
+    <nav class="header_bottom">
+      <desktop-navigation>
+        <ul class="header_linklist">
+          <li class="header_linklist-item"><a href="index.html" class="vinc">INICIO</a></li>
+          <li class="header_linklist-item"><a href="nuevo.html" class="vinc">NUEVOS</a></li>
+          <li class="header_linklist-item"><a href="productos.html" class="vinc">PRODUCTOS</a></li>
+          <li class="header_linklist-item"><a href="contacto.html" class="vinc">CONTACTANOS</a></li>
+          <li class="header_linklist-item"><a href="us.html" class="vinc">NOSOTROS</a></li>
+          <li class="header_linklist-item"><a href="usuario.html" class="vinc">UNETE</a></li>
+        </ul>
+      </desktop-navigation>
+    </nav>
+  </div>
+</header>
+<div class="anuncio-bar">
+  <div class="anuncio-bar_list">
+    <div class="anuncio-bar_list_item">
+      <a> Envios gratis A patir de $1299 en todos los productos</a>
+    </div>
+   </div>
+</div>
+<div class="contenido1">
+  <div class="prod">
+    <div class="prod__column column1">
+      <div class="content-img">
+        <div class="row-img">
+          <img src="productos/productos7/1.avif" alt="img-1" onmouseover="imageChange(this)">
+          <img src="productos/productos7/2.jpg" alt="img-2" onmouseover="imageChange(this)">
+          <img src="productos/productos7/3.avif" alt="img-3" onmouseover="imageChange(this)">
+        </div>
+        <div class="view-png">
+          <img src="productos/productos7/1.avif" alt="img-1" id="img-content">
+        </div>
+      </div>
+    </div>
+    <div class="prod__column column2">
+      <h3 class="prod__title">PANTALON MEZCLILLA <br>BABY COLORS <br>PARA BEBE NIÑO</h3>
+      <h2 class="prod__precio">$ 219.00 MXN</h2>
+      <h1 class="prod__tallas">Tallas</h1>
+      <div class="tallas">
+        <div class="talla 1a seleccionada">1A</div>
+        <div class="talla 2a">2A</div>
+        <div class="talla 3a">3A</div>
+        <div class="talla 4a">4A</div>
+      </div>
+      <button class="compra">ADD TO CART</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+</div>
+</div>
+<footer class="footer">
+  <div class="footer__column">
+    <h3 class="footer__title">Enlaces útiles</h3>
+    <a href="index.html" class="footer__link">Inicio</a>
+    <a href="us.html" class="footer__link">Acerca de nosotros</a>
+    <a href="contacto.html" class="footer__link">Contacto</a>
+  </div>
+  <div class="footer__column">
+    <h3 class="footer__title">Redes sociales</h3>
+    <a href="#" class="footer__link">Facebook</a>
+    <a href="#" class="footer__link">Twitter</a>
+    <a href="#" class="footer__link">Instagram</a>
+  </div>
+  <div class="footer__column">
+    <h3 class="footer__title">Información de contacto</h3>
+    <p>Dirección: 123 Universidad</p>
+    <p>Teléfono: 8131821522</p>
+    <p>Email: allchildren@boutique.com</p>
+  </div>
+  <div class="footer__copy">&copy; 2023 Mi Sitio Web</div>
+</footer>
+</body>
+<script src="tallas.js"></script>
+<script src="image.js"></script>
+</html>

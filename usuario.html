@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="container1" style="position: fixed"; top: 0>
+    <div class="header_wrap">
+      <!-- LEFT -->
+      <nav class="header_inline">
+        <div class="header_search">
+          <form>
+            <div class="search-container">
+              <input type="text" placeholder="Buscar..." style="background-color: transparent;">
+              <button type="submit"><img src="icons/lupa-de-busqueda.png" alt="Buscar"></button>
+            </div>
+          </form>
+        </div>
+      </nav>
+      <!-- LOGO --> 
+      <h1 class="header_logo">
+        <a>
+          <img class="header_logo_img" src="icons/logo.jpeg" width="90px"></a>
+        </a>
+      </h1>
+      <!-- RIGHT -->  
+      <div class="header_sec">
+        <div class="header_icon-list">
+          <nav class="navbar">
+            <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+            <ul class="navbar-ul">
+                <li class="navbar-il"><a class="active" href="index.html">INICIO</a></li>
+                <li class="navbar-il"><a href="nuevo.html" class="vinc">NUEVO</a></li>
+                <li class="navbar-il"><a href="productos.html" class="vinc">PRODUCTOS</a></li>
+                <li class="navbar-il"><a href="contacto.html" class="vinc">CONTACTANOS</a></li>
+                <li class="navbar-il"><a href="us.html" class="vinc">NOSOTROS</a></li>
+                <li class="navbar-il"><a href="usuario.html" class="vinc">UNETE</a></li>
+            </ul>
+          </nav>
+          <a href="carrito.html" class="header_icon-wrap">
+            <img src="icons/carrito-de-compras.png" class="icon">
+          </a>
+          <a href="usuario.html" class="header_icon-wrap">
+            <img src="icons/usuario-de-perfil.png" class="icon">
+          </a>
+        </div>
+      </div>
+    </div>
+    <nav class="header_bottom">
+      <desktop-navigation>
+        <ul class="header_linklist">
+          <li class="header_linklist-item"><a href="index.html" class="vinc">INICIO</a></li>
+          <li class="header_linklist-item"><a href="nuevo.html" class="vinc">NUEVOS</a></li>
+          <li class="header_linklist-item"><a href="productos.html" class="vinc">PRODUCTOS</a></li>
+          <li class="header_linklist-item"><a href="contacto.html" class="vinc">CONTACTANOS</a></li>
+          <li class="header_linklist-item"><a href="us.html" class="vinc">NOSOTROS</a></li>
+          <li class="header_linklist-item"><a href="usuario.html" class="vinc">UNETE</a></li>
+        </ul>
+      </desktop-navigation>
+    </nav>
+  </div>
+</header>
+<div class="anuncio-bar">
+  <div class="anuncio-bar_list">
+    <div class="anuncio-bar_list_item">
+      <a> 20% de Descuento para Nuevos Usuarios, Ingresa Ya </a>
+    </div>
+   </div>
+</div>
+
+
+<div class="formulario">
+  <h2>LOGIN</h2>
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form action="#">
+        <h1>Crear una cuenta</h1>
+        <div class="social-container">
+          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <span>O use su correo electrónico para registrarse</span>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button>Iniciar Sesión</button>
+      </form>
+    </div>
+    <div class="form-container sign-in-container">
+      <form action="#">
+        <h1 class="inicio1">Iniciar sesion
+      </h1>
+        <div class="social-container">
+          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <span>O usa tu cuenta</span>
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <a href="#">Olvidaste tu contraseña?</a>
+        <button class="inicio1">Iniciar Sesion</button>
+      </form>
+    </div>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Bienvenido de nuevo!</h1>
+          <p>Para seguir comprando articulos, inicie sesion con su informacion personal.</p>
+          <button class="ghost" id="signIn">Inicia Sesión</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>Bienvenidos</h1>
+          <p>Ingresa tus datos personales y comienza a comprar</p>
+          <button class="ghost" id="signUp">Registrate</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
